@@ -39,7 +39,7 @@ user --name=jeanbal --groups=wheel
 # eth1 is the public interface
 # eth2 is the internal interface
 network --device eth1 --bootproto static --ip 10.5.5.245 --netmask 255.255.255.0 --gateway 10.5.5.1 --nameserver 8.8.8.8 --noipv6 --hostname o-router1
-network --device eth0 --bootproto none --ip 192.168.9.1 --netmask 255.255.255.0
+network --device eth0 --bootproto static --ip 192.168.9.1 --netmask 255.255.255.0
 
 # Partitioning and filesystems
 
