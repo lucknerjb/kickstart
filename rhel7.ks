@@ -15,7 +15,7 @@ lang en_US.UTF-8
 keyboard us
 
 # Security
-roopw changeme--99
+rootpw changeme
 
 # Firewall
 firewall --disabled
